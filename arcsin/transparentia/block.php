@@ -9,7 +9,5 @@
 <div class="block block-<?php print $id ?>">
     <h3><?php print $title ?></h3>
 
-    <div class="subnav">
-        <?php print $content ?>
-    </div>
+    <?php print $content ?>
 </div>

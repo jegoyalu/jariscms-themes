@@ -17,9 +17,9 @@
 <div class="container">
 
     <div class="header">
+
         <div class="title">
-            <h1>
-                <?php print $site_title; ?> -
+            <h1><?php print $site_title; ?> -
                 <span><?php print $slogan; ?></span>
             </h1>
         </div>
@@ -28,9 +28,11 @@
             <?php print $primary_links ?>
             <div class="clearer"><span></span></div>
         </div>
+
     </div>
 
     <div class="main">
+
         <div class="content">
             <h1><?php print $content_title; ?></h1>
 
@@ -50,17 +52,18 @@
         </div>
 
         <div class="sidenav">
-            <?php echo $right; ?>
-            <?php echo $left; ?>
+            <?php print $right; ?>
+            <?php print $left; ?>
             <?php print $secondary_links ?>
         </div>
 
-        <div class="clearer"><span></span></div>
+        <div class="clearer">&nbsp;</div>
+
     </div>
 
-    <?php include 'footer.php'; ?>
-
 </div>
+
+<?php include 'footer.php'; ?>
 
 </body>
 
