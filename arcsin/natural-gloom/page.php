@@ -31,17 +31,13 @@
 <div id="navigation">
 
     <div id="nav">
-        <ul class="tabbed">
-            <?php print $primary_links; ?>
-        </ul>
+        <?php print $primary_links; ?>
 
         <div class="clearer">&nbsp;</div>
     </div>
 
     <div id="subnav">
-        <ul class="tabbed">
-            <?php print $secondary_links; ?>
-        </ul>
+        <?php print $secondary_links; ?>
 
         <div class="clearer">&nbsp;</div>
     </div>
@@ -73,8 +69,8 @@
 
         <div class="right" id="sidebar_wrapper">
             <div id="sidebar">
-                <?php echo $right; ?>
-                <?php echo $left; ?>
+                <?php print $right; ?>
+                <?php print $left; ?>
                 <?php print $secondary_links ?>
             </div>
         </div>

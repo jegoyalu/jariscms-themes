@@ -50,9 +50,7 @@
 
             <div id="navigation">
 
-                <ul class="tabbed">
-                    <?php print $primary_links ?>
-                </ul>
+                <?php print $primary_links ?>
 
                 <div class="clearer">&nbsp;</div>
 
@@ -136,11 +134,11 @@
         <div id="footer">
 
             <div class="left">
-                <?php print $primary_links ?>
+                <?php print $primary_links; ?>
             </div>
 
             <div class="right">
-                <a href="#">Top ^</a>
+                <a href="#">Top &uarr;</a>
             </div>
 
             <div class="clearer">&nbsp;</div>

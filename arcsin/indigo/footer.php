@@ -19,5 +19,5 @@
         by <a href="http://arcsin.se/" target="_blank">Arcsin</a>
     </div>
 
-    <div class="clearer"><span></span></div>
+    <div class="clearer">&nbsp;</div>
 </div>

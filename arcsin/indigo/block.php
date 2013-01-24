@@ -9,5 +9,5 @@
 <div class="block block-<?php print $id ?>">
     <h1><?php print $title ?></h1>
 
-    <?php print $content ?>
+    <p><?php print $content ?></p>
 </div>

@@ -45,8 +45,8 @@
         </div>
 
         <div class="sidenav">
-            <?php echo $right; ?>
-            <?php echo $left; ?>
+            <?php print $right; ?>
+            <?php print $left; ?>
             <?php print $secondary_links ?>
         </div>
 

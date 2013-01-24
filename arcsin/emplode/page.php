@@ -24,10 +24,8 @@
         <div class="clearer">&nbsp;</div>
 
         <div id="site_title">
-            <h1>
-                <a href="#"><?php print $site_title; ?>
-                <span><?php print $slogan; ?></span></a>
-            </h1>
+            <h1><a href="#"><?php print $site_title; ?></a></h1>
+            <?php print $slogan; ?>
         </div>
     </div>
 </div>
