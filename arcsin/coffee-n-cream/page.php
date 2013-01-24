@@ -3,28 +3,33 @@
 
 <head>
 <title><?php print $title; ?></title>
-<?php print $header_info ?>
-<?php print $meta ?>
+<?php print $header_info; ?>
+<?php print $meta; ?>
 <!--[if IE]>
 <link rel="stylesheet" type="text/css" href="<?php print $theme_path; ?>/ie.css" />
 <![endif]-->
-<?php print $styles ?>
-<?php print $scripts ?>
+<?php print $styles; ?>
+<?php print $scripts; ?>
 </head>
 
 <body>
 
 <div class="container">
 
-    <div class="main">
-
-        <div class="header">
-
-            <div class="title">
-                <h1><?php print $site_title; ?></h1>
-            </div>
-
+    <div class="header">
+        <div class="title">
+            <h1>
+                <?php print $site_title; ?><br/>
+                <?php print $slogan; ?>
+            </h1>
         </div>
+    </div>
+
+    <div class="navigation">
+        <?php print $primary_links; ?>
+    </div>
+
+    <div class="main">
 
         <div class="content">
             <h1><?php print $content_title; ?></h1>

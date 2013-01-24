@@ -6,8 +6,15 @@
  *http://www.gnu.org/licenses/gpl.html.
 */
 ?>
-<div class="block block-<?php print $id ?>">
-    <h1><?php print $title ?></h1>
 
-    <p><?php print $content ?></p>
-</div>
+<?php if($header){ print $header; } ?>
+
+<?php if($left){ print $left; } ?>
+
+<?php if($center){ print $center; } ?>
+
+<?php print $content; ?>
+
+<?php if($right){ print $right; } ?>
+
+<?php if($footer){ print $footer; } ?>

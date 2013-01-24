@@ -63,19 +63,13 @@
 
             <div id="navigation">
                 <div id="main-nav">
-                    <ul class="tabbed">
-                        <!--li class="current-tab"><a href="#">News</a></li-->
-                        <?php print $primary_links ?>
-                    </ul>
+                    <?php print $primary_links ?>
 
                     <div class="clearer">&nbsp;</div>
                 </div>
 
                 <div id="sub-nav">
-                    <ul class="tabbed">
-                        <!--li class="current-tab"><a href="#">Frontpage</a></li-->
-                        <?php print $secondary_links ?>
-                    </ul>
+                    <?php print $secondary_links ?>
 
                     <div class="clearer">&nbsp;</div>
                 </div>
