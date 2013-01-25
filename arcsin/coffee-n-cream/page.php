@@ -17,11 +17,9 @@
 <div class="container">
 
     <div class="header">
-        <div class="title">
-            <h1>
-                <?php print $site_title; ?><br/>
-                <?php print $slogan; ?>
-            </h1>
+        <div class="title" align="center">
+            <h1><a href="<?php print $base_url; ?>" style="text-decoration: none; color:#fff">
+                <?php print $site_title . " - " . $slogan; ?></a></h1>
         </div>
     </div>
 

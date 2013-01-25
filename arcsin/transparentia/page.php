@@ -21,7 +21,8 @@
         <div class="header">
 
             <div class="title">
-                <h1><?php print $site_title; ?></h1>
+                <h1><a href="<?php print $base_url; ?>" style="text-decoration: none; color:#fff">
+                    <?php print $site_title . " - " . $slogan; ?></a></h1>
             </div>
 
         </div>
@@ -47,6 +48,7 @@
         <div class="sidenav">
             <?php print $right; ?>
             <?php print $left; ?>
+            <?php print $primary_links ?>
             <?php print $secondary_links ?>
         </div>
 

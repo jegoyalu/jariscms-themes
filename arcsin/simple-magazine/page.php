@@ -56,7 +56,7 @@
 
             <div id="site-title">
                 <h1>
-                    <a href="#"><?php print $site_title; ?></a>
+                    <a href="<?php print $base_url; ?>"><?php print $site_title; ?></a>
                     <span> / <?php print $slogan; ?></span>
                 </h1>
             </div>
