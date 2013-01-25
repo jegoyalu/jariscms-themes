@@ -22,7 +22,9 @@
 <div id="header_wrapper">
     <div id="header">
         <div id="site_title">
-            <h1><a href="#"><?php print $site_title; ?></a></h1>
+            <h1>
+                <a href="<?php print $base_url; ?>"><?php print $site_title; ?></a>
+            </h1>
             <h2><?php print $slogan; ?></h2>
         </div>
     </div>
