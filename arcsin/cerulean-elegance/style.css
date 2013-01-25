@@ -275,6 +275,12 @@ img.right,img.alignright {margin: 0 0 15px 12px;}
 
 /* Misc */
 
+#content ul.tabs li
+{
+    list-style: none;
+    float: left;
+}
+
 /* Separators */
 
 .content_separator, .archive_separator
@@ -608,7 +614,7 @@ img.right,img.alignright {margin: 0 0 15px 12px;}
 
 /* Box */
 
-.box {margin-bottom: 0.6em;}
+.block {margin-bottom: 0.6em;}
 
 .box_title
 {
@@ -620,9 +626,9 @@ img.right,img.alignright {margin: 0 0 15px 12px;}
     padding: 6px 10px;
 }
 
-.box_content {padding: 8px 0 8px;}
+.block.content {padding: 8px 0 8px;}
 
-.box li:first-child {border-top: none;}
+.block li:first-child {border-top: none;}
 
 /* Comments */
 

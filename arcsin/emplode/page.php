@@ -24,7 +24,9 @@
         <div class="clearer">&nbsp;</div>
 
         <div id="site_title">
-            <h1><a href="#"><?php print $site_title; ?></a></h1>
+            <h1>
+                <a href="<?php print $base_url; ?>"><?php print $site_title; ?></a>
+            </h1>
             <?php print $slogan; ?>
         </div>
     </div>
